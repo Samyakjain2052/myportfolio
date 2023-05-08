@@ -1,0 +1,100 @@
+@media screen and (max-width: 991px){
+    
+    .ham{
+        display: block;
+        margin-left: 87%;
+        margin-top: 30px;
+    }
+    .about{
+        margin-left: 46%;
+    }
+    .know{
+
+    }
+    
+    .nav ul{
+        display: none;
+    }
+    .logo{
+        margin-top: 10px;
+    }
+    .myphoto {
+        display: none
+    }
+    
+    .myphoto1{
+        display: block;
+        margin-left: 40%;
+        margin-top: 50px;
+    }
+    .hovy{
+        margin-left: 277px;
+    }
+    .myname{
+        margin-left: 208px;
+        margin-bottom: 100px;
+        z-index: +1;
+    }
+    .jain {
+       margin-left: 30%;
+    }
+    .me{
+        display: block;
+    }
+    .me p{
+        text-align: center;
+    }
+    .project{
+        display: block;
+        margin-left: 30%;
+    }
+    .pro{
+        margin-bottom: 40px;
+    }
+    .education{
+        display: block;
+        margin-left: 50px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+    }
+    .help{
+        display: block;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .helpfor img{
+        margin-left: 39%;
+    }
+    .helpfor button{
+        margin-left: 44%;
+    }
+    
+    .resume ul{
+
+    }
+    .resumeans ul{
+
+    }
+    .li1{
+        margin-left: 0;
+    }
+    .li2{
+        margin-left: 0;
+    }
+    .li3{
+        margin-left: 0;
+    }
+    .li4{
+        margin-left: 0;
+    }
+
+    @media screen and (max-width: 442px){
+        .jain{
+            height: 100px;
+            width: 100px;
+        }
+    }
+    
+    
+
+}

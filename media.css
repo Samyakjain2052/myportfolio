@@ -22,8 +22,8 @@
     height: auto;
 }
 .myphoto1{
-    height: 500px;
-    width: 430px;
+    height: 650px;
+    width: 550px;
     align-items: center;
    display: none;
    position: relative;
@@ -36,6 +36,7 @@
     left: 95px;
     color: white;
     font-size: 20px;
+    font-family:'Maven Pro', sans-serif;
 }
 
 .nav {
@@ -46,10 +47,11 @@
     z-index: +1;
     background-color: black;
     width: 100%;
+    font-family:'Maven Pro', sans-serif;
 }
 
 .nav ul {
-    margin-left: 600px;
+    margin-left: 690px;
     margin-top: 20px;
     margin-right: 30px;
 }
@@ -129,13 +131,14 @@
     height: 40px;
     width: 110px;
     position: absolute;
-    top: 590px;
+    top: 550px;
     left: 95px;
     background-color: rgb(253, 72, 102);
     border-radius: 10px;
     border: none;
     color: white;
     font-size: 15px;
+    font-family:'Maven Pro', sans-serif;
 
 }
 
@@ -148,6 +151,7 @@
     background: rgb(253, 72, 102);
     justify-content: center;
     margin-left: 48%;
+    margin-top: 100px;
 }
 
 .know {
@@ -155,6 +159,7 @@
     text-align: center;
     font-size: 40px;
     margin-top: 20px;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 .me {
@@ -181,6 +186,7 @@
     margin-top: 100px;
     margin-left: 30px;
     margin-right: 20px;
+    font-family: 'Kalam', cursive;
 
 }
 .do{
@@ -196,39 +202,21 @@
     margin-left: 50px;
 }
 
-.resume ul {
+.resume{
     display: flex;
-    justify-content: space-around;
-    color: gray;
-    font-size: 20px;
-    list-style: none;
-    margin-top: 40px;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    line-height: 35px;
+    margin-top: 20px;
+
 }
-.resumeans ul{
-    
+.p1{
+    color: rgb(83, 83, 83);
+    font-size: 25px
+}
+.pans{
     color: rgb(253, 72, 102);
-    font-size: 20px;
-    list-style: none;
-    margin-top: 10px;
-    margin-bottom: 100px;
-    flex-wrap: wrap;
-}
-.resumeans li{
-    display: inline;
-    font-size: 22px;
-}
-.li1{
-    margin-left: 155px;
-}
-.li2{
-    margin-left: 252px;
-}
-.li3{
-    margin-left: 102px;
-}
-.li4{
-    margin-left: 261px;
+    font-size: 25px;
+    font-family:'Maven Pro';
 }
 .help{
     display: flex;
@@ -259,6 +247,8 @@
     margin-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: 'Signika Negative', sans-serif;
+
 }
 .helpfor button{
     background-color:rgb(253, 72, 102);
@@ -270,6 +260,7 @@
     margin-bottom: 30px;
     color: white;
     border: 0.1px solid white;
+    font-family:'Maven Pro', sans-serif;
 }
 .cv{
     margin-top: 100px;
@@ -291,21 +282,25 @@
     margin-left: 20px;
     font-size: 40px;
     margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .collage{
     margin-top: 20px;
     font-size: 28px;
     margin-left: 20px;
+    font-family: 'Kaushan Script', cursive;
 }
 .aboutedu{
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 30px;
+    font-family: 'Kalam', cursive;
 }
 .where{
     margin-left: 20px;
     margin-top: 10px;
     font-size: 20px;
+    font-family:'Maven Pro', sans-serif;
 }
 .education hr{
     margin-top: 50px;
@@ -331,12 +326,16 @@
     padding-top: 30px;
     font-size: 25px;
     line-height: 40px;
+    font-family: 'Kalam', cursive;
 
 }
 .project{
     display: flex;
     justify-content:space-evenly ;
     position: relative;
+    overflow: hidden;
+}
+.pro{
     overflow: hidden;
 }
 .pro img{
@@ -386,6 +385,7 @@
     background: transparent;
     color: white;
     text-decoration: none;
+    font-family:'Maven Pro', sans-serif;
 }
 .moreabout{
     font-size: 20px;
@@ -452,6 +452,7 @@
     padding-top: 10px;
     color: white;
     font-size: 20px;
+    font-family: 'Kalam', cursive;
 }
 .follo{
     display: flex;

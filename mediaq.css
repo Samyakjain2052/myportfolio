@@ -30,7 +30,6 @@
     }
     .navlink {
         position: absolute;
-        background: black;
         width: 100%;
         top: -590%;
         left:0;
@@ -39,6 +38,7 @@
     .navlink ul{
         margin-left: 0;
         margin-right: 0;
+
     }
     
     .navlink.active{
@@ -70,7 +70,7 @@
     }
 
     .hovy {
-        margin-left: 235px;
+        margin-left: 215px;
         top: 400px;
         background: transparent;
     }
@@ -111,12 +111,47 @@
     .me {
         display: block;
     }
-    
-
-    .img_con {
-        width: 400px;
+    .pro{
+        margin-right: 100px;
+    }
+    .pro img{
+        height: 500px;
+        width: 650px;
+    }
+    .pro button{
+        height: 35px;
+        width: 130px;
+        margin-left:280px;
+        margin-top: 50px;
     }
 
+    .img_con {
+        width: 650px;
+    }
+    .aboutproject{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .moreabout{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .aboutproject1{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .moreabout1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .aboutproject2{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .moreabout2{
+        font-size: 35px;
+        line-height: 50px;
+    }
     .me p {
         margin-top: 20px;
         text-align: center;
@@ -126,7 +161,7 @@
 
     .project {
         display: block;
-        margin-left: 30%;
+        margin-left: 16%;
     }
 
     .pro {
@@ -170,18 +205,27 @@
         margin-left: 0;
     }
 }
-
-@media screen and (max-width: 430px) {
+@media screen and(max-width: 767px){
     .jain {
-        height: 200px;
-        width: 200px;
-        margin-left: 90px;
+        margin-left: 20%;
+    }
+    .helpfor img {
+        margin-left: 36%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .jain {
+        height: 250px;
+        width: 250px;
+        margin-left: 120px;
     }
 
     .logo {
-        height: 46px;
-        width: 43px;
+        height: 50px;
+        width: 46px;
         margin-left: 20px;
+        margin-top: 10px;
     }
     .navlink.active{
         top: 50px;
@@ -191,19 +235,18 @@
     }
 
     .ham {
-        margin-left: 280px;
         margin-top: 20px;
     }
 
     .myphoto1 {
-        height: 300px;
-        width: 250px;
+        height: 400px;
+        width: 330px;
         margin-left: 75px;
     }
 
     .about {
-        margin-left: 160px;
-        font-size: 17px;
+        margin-left: 200px;
+        font-size: 18px;
     }
 
     .know {
@@ -216,11 +259,13 @@
     }
 
     .helpfor img {
-        margin-left: 58px;
+        margin-left: 100px;
     }
 
     .helpfor button {
-        margin-left: 112px;
+        margin-left: 126px;
+        font-size: 17px;
+        width: 125px;
     }
 
     .helpabout {
@@ -234,18 +279,49 @@
     }
 
     .project {
-        margin-left: 30px;
+        margin-left: 0px;
+        margin-right: 0;
     }
 
     .pro img {
-        height: 250px;
-        width: 325px;
+        height: 300px;
+        width: 440px;
     }
-
+    .aboutproject{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .moreabout{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .aboutproject1{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .moreabout1{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .aboutproject2{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .moreabout2{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .pro{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
     .img_con {
-        width: 325px;
+        width: 440px;
     }
-
+    .img_con button{
+        margin-left: 160px;
+        margin-top: 30px;
+    }
     .last {
         font-size: 18px;
         padding-left: 15px;
@@ -257,14 +333,15 @@
     }
 
     .hovy {
-        top: 200px;
+        top: 250px;
         font-size: 12px;
-        margin-left: 0px;
+        margin-left: -10px;
+        font-size: 16px;
     }
 
     .myname {
-        top: 225px;
-        font-size: 30px;
+        top: 275px;
+        font-size: 40px;
         margin-left: -15px;
     }
 
@@ -285,17 +362,17 @@
     }
 
     .from {
-        top: 38px;
-        font-size: 30px;
-        margin-left: -2px;
+        top: 50px;
+        font-size: 40px;
+        margin-left: -5px;
     }
 
     .btn {
-        top: 311px;
-        margin-left: 55px;
-        height: 30px;
-        width: 90px;
-        font-size: 12px;
+        top: 390px;
+        margin-left: 85px;
+        height: 40px;
+        width: 120px;
+        font-size: 15px;
     }
 
 }
